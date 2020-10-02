@@ -1,6 +1,6 @@
-#MyLeetcode
+# MyLeetcode
 
-Currently Solved:89
+Currently Solved:92
 
 ID| Title | Difficulty 
 --|-----  |-----------
