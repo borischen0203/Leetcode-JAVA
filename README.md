@@ -2,35 +2,31 @@
 
 Currently Solved:89
 
-ID             | Title | Difficulty 
----------------|-----   |-----------
-Feudal Age     | 02:10 |  500 
-Castle Age     | 02:40 |  800 
-Imperial Age   | 03:30 | 1000 
-1              |Two Sum| Easy
-1	|Two Sum    |	Easy
-7	|Reverse Integer    |	Easy
-9	|Palindrome Number   | 	Easy
-13|	Roman to Integer    |	Easy
-14|	Longest Common Prefix    |	Easy
-15|	3Sum    |	Medium
-20|	Valid Parentheses   | 	Easy
-21|	Merge Two Sorted Lists   | 	Easy
-26|	Remove Duplicates from Sorted Array   | 	Easy
-27|	Remove Element   | 	Easy
-35|	Search Insert Position    |	Easy
-62|	Unique Paths   | 	Medium
-70|	Climbing Stairs   | 	Easy
-74|	Search a 2D Matrix  |  	Medium
-75|	Sort Colors    |	Medium
-80|	Remove Duplicates from Sorted Array II  |  	Medium
-82|	Remove Duplicates from Sorted List II  |  	Medium
-83|	Remove Duplicates from Sorted List   | 	Easy
-86|	Partition List   | 	Medium
+ID| Title | Difficulty 
+--|-----  |-----------
+1	|Two Sum     |Easy
+7	|Reverse Integer    |Easy
+9	|Palindrome Number   |Easy
+13|	Roman to Integer    |Easy
+14|	Longest Common Prefix    |Easy
+15|	3Sum    |Medium
+20|	Valid Parentheses   |Easy
+21|	Merge Two Sorted Lists   |Easy
+26|	Remove Duplicates from Sorted Array   |Easy
+27|	Remove Element   |Easy
+35|	Search Insert Position    |Easy
+62|	Unique Paths   |Medium
+70|	Climbing Stairs   |Easy
+74|	Search a 2D Matrix  |Medium
+75|	Sort Colors    |Medium
+80|	Remove Duplicates from Sorted Array II  |Medium
+82|	Remove Duplicates from Sorted List II  |Medium
+83|	Remove Duplicates from Sorted List   |Easy
+86|	Partition List   |Medium
 88|	Merge Sorted Array    	|Easy
-94|	Binary Tree Inorder Traversal|    	Medium
-98|	Validate Binary Search Tree|    	Medium
-100|	Same Tree    |	Easy
+94|	Binary Tree Inorder TraversalMedium
+98|	Validate Binary Search Tree|Medium
+100|	Same Tree    |Easy
 101	|Symmetric Tree   | 	Easy
 102	|Binary Tree Level Order Traversal |   	Medium
 104	|Maximum Depth of Binary Tree   | 	Easy
