@@ -1,4 +1,4 @@
-#Leetcode
+#MyLeetcode
 
 Currently Solved:89
 
@@ -91,7 +91,7 @@ ID| Title | Difficulty
 977	|Squares of a Sorted Array    	|Easy
 1071|	Greatest Common Divisor of Strings|Easy
 1160|	Find Words That Can Be Formed by Characters|Easy
-1161|	Maximum Level Sum of a Binary Tree|    	Medium
+1161|	Maximum Level Sum of a Binary Tree|Medium
 1331|	Rank Transform of an Array    	|Easy
 1332|	Remove Palindromic Subsequences    	|Easy
 1342|	Number of Steps to Reduce a Number to Zero|Easy
