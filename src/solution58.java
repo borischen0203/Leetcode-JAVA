@@ -19,19 +19,9 @@ import java.util.Arrays;
  */
 
 public class solution58 {
-    public int lengthOfLastWord(String s) {
-        String[] ss = s.split("\\s+");
-        if (ss.length == 0) {
-            return 0;
-        } else {
-            int lastIndex = ss.length - 1;
-            return ss[lastIndex].length();
-        }
-    }
-
     // public int lengthOfLastWord(String s) {
-    // String ss = s.trim();
-    // if (ss.length() == 0) {
+    // String[] ss = s.split("\\s+");
+    // if (ss.length == 0) {
     // return 0;
     // } else {
     // int lastIndex = ss.length - 1;
@@ -39,12 +29,30 @@ public class solution58 {
     // }
     // }
 
+    public int lengthOfLastWord(String s) {
+        int result = 0;
+        String ss = s.trim();
+        int index = ss.length() - 1;
+        if (index < 0) {
+            return 0;
+        } else {
+            for (int i = ss.length() - 1; i >= 0; i--) {
+                if (ss.charAt(i) == ' ') {
+                    break;
+                } else {
+                    result++;
+                }
+            }
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         solution58 s = new solution58();
         String ss = "                  ";
         String[] sa = ss.split("\\s+");
         // System.out.println(sa.length);
         // System.out.println(Arrays.toString(sa));
-        System.out.println(s.lengthOfLastWord("h             "));
+        System.out.println(s.lengthOfLastWord("  "));
     }
 }
