@@ -6,6 +6,7 @@ public class solution14 {
 		}
 		String pre = strs[0];
 		for (int i = 1; i < strs.length; i++) {
+			System.out.println(strs[i].indexOf(pre));
 			while (strs[i].indexOf(pre) != 0) {
 				pre = pre.substring(0, pre.length() - 1);//
 			}
@@ -27,10 +28,11 @@ public class solution14 {
 
 	public static void main(String[] args) {
 		solution14 a = new solution14();
-		String[] strs = new String[] { "12345", "1234", "12" };
+		// String[] strs = new String[] { "12345", "1234", "12" };
+		String[] strs = { "flower", "flow", "flight" };
 		System.out.println(a.longestCommonPrefix(strs));
-		String stri = "1234";
-		String pre = "1234";
-		System.out.println(stri.indexOf(pre));
+		// String stri = "1234";
+		// String pre = "1234";
+		// System.out.println(stri.indexOf(pre));
 	}
 }

@@ -27,17 +27,26 @@
 
 public class solution35 {
 
+    // public int searchInsert(int[] nums, int target) {
+    // int i;
+    // for (i = 0; i < nums.length; i++) {
+    // if (nums[i] > target) {
+    // nums[i] = target;
+    // return i;
+    // } else if (nums[i] == target) {
+    // return i;
+    // }
+    // }
+    // return i;
+    // }
+
     public int searchInsert(int[] nums, int target) {
-        int i;
-        for (i = 0; i < nums.length; i++) {
-            if (nums[i] > target) {
-                nums[i] = target;
-                return i;
-            } else if (nums[i] == target) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] >= target) {
                 return i;
             }
         }
-        return i;
+        return nums.length;
     }
 
     public static void main(String[] args) {
@@ -46,7 +55,7 @@ public class solution35 {
         int[] nums3 = new int[] { 1 };
         int[] nums4 = new int[] { 3, 6, 7, 8, 10 };
         solution35 a = new solution35();
-        System.out.println(a.searchInsert(nums, 5));// 2
+        System.out.println(a.searchInsert(nums, 4));// 2
         System.out.println(a.searchInsert(nums, 2));// 1
         System.out.println(a.searchInsert(nums, 7));// 4
         System.out.println(a.searchInsert(nums, 0));// 0

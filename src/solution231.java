@@ -24,8 +24,9 @@ public class solution231 {
 
     public static void main(String[] args) {
         solution231 a = new solution231();
-        System.out.println(a.isPowerOfTwo(2097151));
-        System.out.println(a.isPowerOfTwo(536870912));
+        // System.out.println(a.isPowerOfTwo(2097151));
+        // System.out.println(a.isPowerOfTwo(536870912));
+        System.out.println(a.isPowerOfTwo(5));
         // System.out.println(a.isPowerOfTwo(5));
         // System.out.println(29 % 1);
     }

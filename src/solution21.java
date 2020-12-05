@@ -29,5 +29,11 @@ public class solution21 {
     }
 
     public static void main(String[] args) {
+        solution21 s = new solution21();
+        int[] list1 = new int[] { 1, 2, 4 };
+        int[] list2 = new int[] { 1, 3, 4 };
+        ListNode l1 = ListNode.build(list1);
+        ListNode l2 = ListNode.build(list2);
+        System.out.println(s.mergeTwoLists(l1, l2));
     }
 }

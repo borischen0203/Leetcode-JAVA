@@ -52,7 +52,7 @@ public class solution26 {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[] { 1, 1, 2 };
+        int[] a = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
         solution26 b = new solution26();
         System.out.println(b.removeDuplicate(a));
 

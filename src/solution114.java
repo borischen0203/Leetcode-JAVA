@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class solution114 {
     public void flatten(TreeNode root) {
-        if (root == null) {
+        if (root != null) {
             return;
         }
         flatten(root.left);

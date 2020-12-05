@@ -37,8 +37,28 @@ public class solution118 {
         return result;
     }
 
+    public int fib(int number) {
+        if (number == 1 | number == 0) {
+            return number;
+        } else {
+            return fib(number - 1) + fib(number - 2);
+        }
+    }
+
+    public boolean isNum(String s) {
+        try {
+            int i = Integer.valueOf(s);
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         solution118 s = new solution118();
-        System.out.println(s.generate(3));
+        // System.out.println(s.fib(6));
+        // System.out.println(s.generate(3));
+        System.out.println(s.isNum("0.1"));
+
     }
 }

@@ -43,9 +43,9 @@ public class solution15 {
                         answer.add(new ArrayList<Integer>(Arrays.asList(nums[i], nums[pointOne], nums[pointTwo])));
                         pointOne++;
                         pointTwo--;
-                    } else if (sum < -nums[i]) {
+                    } else if (sum < -nums[i]) {// sum is too small
                         pointOne++;
-                    } else if (sum > -nums[i]) {
+                    } else if (sum > -nums[i]) {// sum is too large
                         pointTwo--;
                     }
                 }
@@ -57,7 +57,7 @@ public class solution15 {
 
     public static void main(String[] args) {
         solution15 a = new solution15();
-        int[] nums = new int[] { 3, 0, -2, -1, 1, 2 };
+        int[] nums = new int[] { 3, 0, -2, -1, 1, 4 };
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));
         System.out.println(a.threeSum(nums));
