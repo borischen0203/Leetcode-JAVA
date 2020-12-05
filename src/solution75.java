@@ -7,6 +7,7 @@ public class solution75 {
         int count1 = 0;
         int count2 = 0;
         for (int i : nums) {
+
             if (i == 0) {
                 count0++;
             } else if (i == 1) {
