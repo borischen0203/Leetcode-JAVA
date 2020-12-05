@@ -1,6 +1,6 @@
 # MyLeetcode
 
-Currently Solved:93
+Currently Solved:96
 
 | ID   | Title                                           | Difficulty |
 | ---- | ----------------------------------------------- | ---------- |
@@ -34,7 +34,9 @@ Currently Solved:93
 | 108  | Convert Sorted Array to Binary Search Tree      | Easy       |
 | 114  | Flatten Binary Tree to Linked List              | Medium     |
 | 116  | Populating Next Right Pointers in Each Node     | Medium     |
+| 118  | Pascal's Triangle                               | Easy       |
 | 121  | Best Time to Buy and Sell Stock                 | Easy       |
+| 125  | Valid Palindrome                                | Easy       |
 | 136  | Single Number                                   | Easy       |
 | 141  | Linked List Cycle                               | Easy       |
 | 144  | Binary Tree Preorder Traversal                  | Medium     |
