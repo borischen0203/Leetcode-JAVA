@@ -1,6 +1,8 @@
 .class
 .project
 .classpath
-Leetcode-JAVA/bin
+bin/
 .DS_Store
-.project
+*.class
+.vscode
+.idea
